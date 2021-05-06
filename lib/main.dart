@@ -49,7 +49,7 @@ class Slack extends StatelessWidget {
                       padding: EdgeInsets.all(140),
                     ),
                     Card(
-                      color: Color(0xfff4ced9),
+                      color: Color(0xfff4ced9).withOpacity(0.3),
                       clipBehavior: Clip.antiAliasWithSaveLayer,
                       elevation: 2.0,
                       child: SizedBox(
